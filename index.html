@@ -4,145 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>My Website</title>
-    <style>
-        .toptop {
-            width: 100%;
-            background-color: #ffffff;
-            border: #cccccc 1px solid;
-        }
-
-        .topnav {
-            overflow: hidden;
-            width: 960px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
-        .topnav a.right {
-            float: right;
-            color: black;
-            font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-            text-align: center;
-            padding: 20px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-    
-        .topnav a:hover {
-            background-color:#4aaaa5;
-            color: #ffffff;
-        }
-    
-        .topnav a.name {
-            background-color: #4aaaa5;
-            float: left;
-            color: white;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            padding: 20px 16px;
-            font-size: 20px;
-        }
-        h2 {
-            color: #4aaaa5;
-            margin-left: 20px;
-        }
-    
-        .main { 
-            background-color: #ffffff;
-            width: 960px;
-            height: auto;
-            margin-top: 30px;
-            border: 1px solid #dddddd;
-            margin-left: auto;
-            margin-right: auto;
-    
-        }
-        .main ::after {
-            content: "";
-            display: block;
-            clear: both;
-        }
-    
-        .profile {
-            width: 170px;
-            height: 170px;
-            margin-right: 15px;
-            margin-left: 15px;
-            float: left;
-        }
-    
-        body {
-            height: 100%;
-            margin: 0;
-            background-image: url("assets/images/beanstalk.png");
-        }
-    
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            color: #ffffff;
-            font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-            text-align: center;
-            background-color: #666666;
-            border-top: 5px solid #4aaaa5;
-        }
-    
-        .box1, .box2, .box3, .box4, .box5 {
-            width: 200px;
-            height: 200px;
-        }
-
-        .boxleft, .boxright {
-            position: relative;
-            float: left;
-            width: 33.33%;
-            padding-left: 50px;
-            padding-bottom: 20px;
-            margin-top: 10px;
-        }
-
-        .hangman, .triviagame, .rockpaper, .rpggame, .infowidget {
-            position: relative;
-            text-align: center;
-            color: white;
-            width: 200px;
-            height: 200px;
-            margin-top: 20px;
-        }
-
-        .hang, .trivia, .rock, .rpg, .info {
-            position: absolute;
-            top: 150px;
-            width: 100%;
-            color: #ffffff;
-            background-color: #4aaaa5;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        }
-    </style>
 </head>
-<body>
+<body background="/assets/images/beanstalk.png">
 
      <div class="toptop">
         <div class="topnav">
-            <a class="name" href="#">VU HOANG</a>
-            <a class="right" href="#">Contact</a>
-            <a class="right" href="#">Portfolio</a>
-            <a class="right" href="#">About Me</a>
+            <a class="name" href="index.html">VU HOANG</a>
+            <a class="right" href="contact.html">Contact</a>
+            <a class="right" href="portfolio.html">Portfolio</a>
+            <a class="right" href="index.html">About Me</a>
          </div>
-    </div>
-        
+    </div>       
 
-    <div class="main">
+    <div class="mainindex">
         <h2> About Me </h2>
-
         <hr>
 
-       <p> <img class="profile" src="assets/images/photo of me.jpg" alt="profile picture"/> 
-        This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        <img class="profile" src="assets/images/photo of me.jpg" alt="profile picture" /> 
+        
+       <div class="paragraph">      
+            <h3> Introduction </h3>
+            Hi! My name is Alex. I’m 25 and I live in Hanoi which is the capital of Vietnam. Actually I come from another city - Hatay, where I lived for eleven years, but five years ago, my dad decided to change his job, and we all moved to Warsaw. I have a sister – Maja. She is 18 and she had been to USA two years ago and now she studies law at the University of Warsaw. My dad works for a German company. My mom used to teatch at the University and now, she works as a computer analitist.
+
+            <h3> Interests </h3>
+            I’m interested in computer science, music, sport and fantasy literature. Computers first appered in my life when I was seven. Then I had got my first computer. It was Commodore 64 and I remember myself thinking, that it was the best thing in the world. I was playing it whenever I could. Then I had got my first PC. At first, I was just playing computer games, but some time later, I noticed that I could do a lot more things with the computer, for example programming. Now, I can already programue in Pascal, C++ and HTML. I have my own site on the internet and I have done many programues. I hope that in the future I will get a job as a computer scientist.
+        </div> 
+
+
     </div>
     <footer class="footer"> <p> Copyright@ </p> </footer>
 </body>
