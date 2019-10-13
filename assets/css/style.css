@@ -86,8 +86,8 @@ h2, h3 {
 
 body {
 
-    background-image: url("/assets/images/beanstalk.png");
-    background-color: aqua;
+    background-image: url("../images/beanstalk.png");
+    background-repeat: repeat;
 }
 
 .footer {
